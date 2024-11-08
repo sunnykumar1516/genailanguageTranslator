@@ -12,8 +12,8 @@ with gr.Blocks() as demo:
         inputs=["text",gr.Radio(["Hindi","French","Spanish"])],
         outputs=["text"],
     )
-    gr.Markdown("<p style='color:red;'>Created By: <span style ='color:yellow'>Sunny Kumar</span>.</p>")
-    gr.Markdown("<p style='color:red;'>Contact me at: <span style ='color:yellow'>SunnyKumar1516@gmail.com</span>.</p>")
-    gr.Markdown("<p style='color:red;'>Linkdin: <span style ='color:yellow'>https://www.linkedin.com/in/sunny-kumar-b232417a/</span>.</p>")
+    gr.Markdown("<p style='color:white;'>Created By: <span style ='color:yellow;'>Sunny Kumar</span>.</p>")
+    gr.Markdown("<p style='color:white;'>Contact me at: <span style ='color:yellow;'>SunnyKumar1516@gmail.com</span>.</p>")
+    gr.Markdown("<p style='color:white;'>Linkdin: <span style ='color:yellow;'>https://www.linkedin.com/in/sunny-kumar-b232417a/</span>.</p>")
     
 demo.launch()
